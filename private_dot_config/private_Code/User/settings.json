@@ -1,0 +1,146 @@
+{
+    "go.vetOnSave": "off",
+    "editor.fontSize": 14,
+    "editor.tabSize": 2,
+    "editor.fontLigatures": true,
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "hidden",
+    "workbench.list.automaticKeyboardNavigation": false,
+    // "editor.suggestSelection": "none",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "vim.easymotion": true,
+    "vim.sneak": false,
+    "vim.surround": true,
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j", "j"],
+            "after": ["<Esc>"]
+        }
+    ],
+    "editor.lineNumbers": "relative",
+    "vim.leader": " ",
+    "vim.normalModeKeyBindings": [
+        {
+            "before": ["<leader>", "w"],
+            "commands": ["workbench.action.files.save"]
+        },
+        {
+            "before": [";"],
+            "commands": ["workbench.action.showCommands"]
+        },
+        {
+            "before": ["<leader>", "<leader>", "q"],
+            "commands": [":q!"]
+        },
+        {
+            "before": ["<leader>", "q"],
+            "commands": [":q"]
+        },
+        {
+            "before": ["t", "t"],
+            "commands": ["workbench.action.terminal.toggleTerminal"]
+        },
+        {
+            "before": ["T"],
+            "commands": ["workbench.action.togglePanel"]
+        },
+        {
+            "before": ["<C-h>"],
+            "commands": ["workbench.action.navigateLeft"]
+        },
+        {
+            "before": ["<C-l>"],
+            "commands": ["workbench.action.navigateRight"]
+        },
+        {
+            "before": ["<leader>", "e"],
+            "commands": ["workbench.view.explorer"]
+        },
+        {
+            "before": ["E"],
+            "commands": ["workbench.action.toggleSidebarVisibility"]
+        },
+        {
+            "before": ["<C-t>"],
+            "commands": ["workbench.action.splitEditor"]
+        },
+        {
+            "before": ["<leader>", "t"],
+            "commands": ["workbench.action.splitEditor"]
+        },
+        {
+            "before": ["M"],
+            "commands": ["editor.action.toggleMinimap"]
+        },
+        {
+            "before": ["<C-j>"],
+            "commands": ["workbench.action.navigateDown"]
+        },
+        {
+            "before": ["<C-k>"],
+            "commands": ["workbench.action.navigateUp"]
+        },
+        {
+            "before": ["<leader>", "c"],
+            "commands": ["editor.action.commentLine"]
+        },
+        {
+            "before": ["<C-Tab>"],
+            "commands": [":Tabnext"]
+        }
+    ],
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb"
+    },
+    "python.pythonPath": "/usr/bin/python3",
+    "workbench.colorTheme": "Ayu Mirage",
+    "vim.commandLineModeKeyBindingsNonRecursive": [],
+    "vim.handleKeys": {
+        "<C-d>": false,
+        "<C-a>": true
+    },
+    // "vim.overrideCopy": true,
+    "vim.useSystemClipboard": true,
+    "vim.showmodename": false,
+    "vim.commandLineModeKeyBindings": [],
+    "vscode-neovim.highlightGroups.highlights": {
+
+        "Directory": "vim",
+        "IncSearch": {
+            "backgroundColor": "theme.editor.findMatchBackground",
+            "borderColor": "theme.editor.findMatchBorder"
+        },
+        "Search": {
+            "backgroundColor": "theme.editor.findMatchHighlightBackground",
+            "borderColor": "theme.editor.findMatchHighlightBorder"
+        },
+        "Visual": {
+            "backgroundColor": "theme.editor.selectionBackground"
+        },
+        "Conceal": "vim",
+        "Substitute": "vim"
+    },
+    "vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/nvim",
+    "editor.minimap.enabled": false,
+    "editor.acceptSuggestionOnCommitCharacter":true,
+    "typescript.format.enable": true,
+    "javascript.format.enable": true,
+    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": true,
+    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": false,
+    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": true,
+    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": false,
+    "javascript.autoClosingTags": true,
+    "workbench.startupEditor": "none",
+    "editor.formatOnType": false,
+    "editor.formatOnPaste": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": false,
+        "source.fixAll": true
+    },
+    "editor.useTabStops": true,
+    "editor.wrappingIndent": "indent",
+    "gopls": {},
+    "editor.bracketPairColorization.enabled": true,
+    "tabnine.experimentalAutoImports": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    }
