@@ -12,6 +12,7 @@ local function map(mode, lhs, rhs, opts)
 end
 
 map({ "i", "v", "n", "s" }, "<A-s>", "<cmd>w<cr>", { desc = "Save file" })
+map({ "i", "v", "n", "s" }, "<A-w>", "<cmd>SudaWrite<cr>", { desc = "Save file as root" })
 
 map("n", "<leader>o", "<cmd>Neotree float<cr>", { desc = "Float Neotre" })
 

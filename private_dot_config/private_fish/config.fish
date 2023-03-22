@@ -12,6 +12,9 @@ set PATH $HOME/.emacs.d/bin $PATH
 set -gx EDITOR nvim
 set NIX_LINK $HOME/.nix-profile
 
+set LIBRARY_PATH /usr/local/lib
+set C_INCLUDE_PATH /usr/local/include
+set LD_LIBRARY_PATH /usr/local/lib
 
 # if status is-login
 #     contains ~/.local/bin $PATH
