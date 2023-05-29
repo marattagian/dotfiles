@@ -76,4 +76,5 @@ return {
       },
     },
   },
+  { "kblin/vim-fountain" },
 }
